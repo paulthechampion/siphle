@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.top-navigation{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 1em;
+    
+    
+    margin: auto;
+}
+.bottom-navigation{
+    position: fixed;
+    bottom:0;
+    width:100%
+}
+
+.bottom-navigation-maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    border-top:1px solid rgb(37, 8, 98);
+    padding:0.7em
+}
+
+.bottom-navigation-minidiv{
+    width: 20%;
+    margin: auto;
+}
+.top-navigation-minidiv{
+    width: 10%;
+    margin: auto;
+}
+
+.travel-icon{
+    background-color: rgb(37, 8, 98);
+    border-radius: 100%;
+    padding:3px;
+}
+.travel-div{
+    text-align: right;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}

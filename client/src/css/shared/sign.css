@@ -1,0 +1,27 @@
+.sign-form-group>input{
+    height: 2em;
+    width: 15em;
+    margin: 1em;
+    border-radius: 5px;
+    filter: none;
+}
+
+.sign-btn{
+    outline: none;
+    border: none;
+    color:white;
+    padding: 10px;
+    padding-left:30px ;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    transition: ease-in-out 1s;
+    margin-top: 1em;
+    box-shadow: 1px 1px grey;
+}
+
+.sign-btn:hover{
+    background-color: white;
+    color: var(--primary-color);
+    cursor: pointer;
+  }

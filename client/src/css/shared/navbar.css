@@ -1,0 +1,29 @@
+.nav-bar-nav{
+    position:absolute;
+    bottom:0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 0;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1em;
+}
+.fa-search{
+    font-size: 2em;
+    color: var(--primary-color);
+}
+.fa-kiss-wink-heart{
+    font-size: 2em;
+    color: var(--primary-color);
+}
+.fa-comments{
+    font-size: 2em;
+    color: var(--primary-color);
+}
+.fa-user{
+    font-size: 2em;
+    color: var(--primary-color);
+}
+.nav-icon-div{
+    width: 25%;
+}
